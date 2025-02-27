@@ -1,0 +1,297 @@
+*{margin: 0;}
+#header{
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(black,purple);
+    position: fixed;
+    z-index: 999;
+}
+#nama{
+    color: white;
+    padding: 20px;
+    font-family: "Spicy Rice", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+#menu-bar{
+    padding-top: 10px;
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(purple,black);
+}
+.menu{
+    color:white;
+    width: 130px;
+    list-style: none;
+    text-align: center;
+}
+#daftar-menu{
+    display:inline-flex;
+}
+.menu:hover{
+    background-color:purple;
+    color: black;
+    border-radius: 10px;
+}
+#menu-artikel{
+    display: none;
+}
+.menu:hover #menu-artikel{
+    display: block;
+}
+.artikel{
+    list-style: none;
+    padding-top: 10px;
+    font-family: "Spicy Rice", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: -40;
+    color:grey;
+}
+.artikel:hover{
+    background-color:black;
+    color: white;
+}
+#menu-sosmed{
+    display:none;
+}
+.menu:hover #menu-sosmed{
+    display: block;
+}
+.sosmed{
+    list-style: none;
+    padding-top: 10px;
+    font-family: "Spicy Rice", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: -40;
+    color:grey;
+}
+.sosmed:hover{
+    background-color:black;
+    color: white;
+}
+.content{
+    width: 100%;
+    height:1900px;
+ /*   background-color: rebeccapurple;*/
+    display: flex;
+    padding-top: 154px;
+}
+.side-menu{
+    width: 20%;
+    height: 100%;
+/*    background-color: brown;*/
+   /* position: sticky;*/
+    display: block;
+    position: fixed;
+}
+.isi{
+    width: 80%;
+    height: 100%;
+    /*background-color: darkblue;*/
+    padding-top:-15px;
+    margin-left: 400px;
+}
+.video{
+    width:20%;
+    height:40%;
+    background-color: orange;
+}
+.yt{
+    width: 100%;
+    height: 100%;
+}
+.bks-baru{
+    width: 80%;
+    height: 200px;
+    /*background-color: skyblue;*/
+    margin: auto;
+    display: flex;
+}
+.vid{
+    width:150px;
+    height: 150px;
+    background-color: burlywood;
+    margin: auto;
+    border-bottom-right-radius: 150px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+}
+.bks2{
+    width: 80%;
+    height: 500px;
+    /*background-color: brown;*/
+    margin: auto;
+    
+    margin-top: 80px;
+    display: flex;
+}
+.vid2{
+    width: 40%;
+    height: 400px;
+    background-color: hotpink;
+    margin: auto;
+}
+.fto{
+    width: 150px;
+    height: 150px;
+    border-bottom-right-radius: 150px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+}
+.vd2{
+    width: 40%;
+    height: 400px;
+    margin: auto;
+}
+.ident{
+    width: 100%;
+    height: 400px;
+    /*background-color: cadetblue;*/
+    padding-top: 50px;
+}
+.ident2{
+    width: 100%;
+    height: 250px;
+    /*background-color:greenyellow;*/
+}
+.img{
+    width: 40%;
+    height: 250px;
+    background-color: grey;
+    margin: auto;
+    border-radius: 10px;
+}
+.windah{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+h3{
+    text-align: center;
+    padding-top: 20px;
+}
+h6{
+    text-align: center;
+}
+h1{
+    color: white;
+    margin-left: 100px;
+}
+#info-terbaru{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    height: 10px;
+}
+.infotbr{
+    padding: 6px;
+    width: 150px;
+    list-style: none;
+    padding-top: 20px;
+}
+.infotbr:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+p{
+    text-align: center;
+}
+ul{
+    padding-top: 10px;
+}
+#artikel{
+    width: 100%;
+    
+}
+#teks{
+    color:maroon;
+    text-align: center;
+    padding-bottom: 40px;
+    font-family: "Spicy Rice", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.fto-artkl{
+    width: 35%;
+    height: 200px;
+    background-color: gray;
+    margin: auto;
+}
+.wdh-artkl{
+    width: 100%;
+    height: 200px;
+}
+#deskripsi{
+    padding-top: 60px;
+    text-align: justify;
+    width: 900px;
+    margin-left: 300px;
+}
+.samping{
+    width: 300px;
+    text-align: justify;
+    margin-left: 25px;
+}
+.baru{
+    width: 100%;
+    height: 450px;
+   /* background-color:wheat;*/
+    margin-top: 40px;
+    padding-top: 10px;
+}
+.red{
+    width: 95%;
+    height: 70px;
+    background-color: maroon;
+    margin: auto;
+}
+.fto-teks{
+    width: 95%;
+    height: 300px;
+    margin: auto;
+/*    margin-top: 10px;*/
+    /*background-color: darkblue;*/
+    display: flex;
+}
+.anaknya{
+    width:18%;  
+    height: 250px;
+    margin: auto;
+  /*  background-color: brown;*/
+}
+.fot{
+    width:100%;
+    height: 150px;
+}
+.atur{
+    width: 150px;
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+   /* margin-left: 10px;*/
+}
+.atas{
+    width: 100%;
+}
+#list-baru{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.tentang{
+    color:white;
+}
+.grey{
+    width: 100%;
+    height:50px;
+    background-color:#a39f9f;
+    display: flex;
+}
